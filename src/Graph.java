@@ -98,8 +98,6 @@ public final class Graph {
         // Использовал материалы с сайтов GeeksForGeeks и Википедиии для того, чтобы разобраться в сортировке
         for (Node key : adjacencyList.keySet()) {
             visited.put(key, false);
-            for (Node value : adjacencyList.get(key)) {
-                visited.put(value, false);
             }
         }
 
